@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes 1.5.25</title>
+    <link rel="stylesheet" href="1.5.25.css"/>
+</head>
+<body>
+
+    <h2>Company Name: <span id="company-name"></span></h2>
+    
+    <div>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email" id="email" name="email"/>
+    </div>
+
+    <img id="bg-image"/>
+
+    <h2>Movie Name: <span id="movie-name"></span></h2>
+    
+    <script>
+
+         //window.alert('First message from JavaScript!');
+
+
+         console.log('sum of two numbers', 45 + 78);
+
+         console.log('Company Name:', 'Digital' + ' ' + 'School');
+
+         document.getElementById('company-name').innerHTML = 'Digital School';
+
+         //document.getElementById('company-name').style.color = 'blue';
+
+         //document.getElementById('company-name').style.backgroundColor = 'lightgray';
+
+         document.getElementById('company-name').classList.add('company-name');
+
+         document.getElementById('email').value = 'john@example.com';
+
+         console.log(document.getElementById('email').value);
+
+         document.getElementById('bg-image').setAttribute('src', 'https://tse3.mm.bing.net/th/id/OIP.o0-_5Yz2Vr32GtIPXUKTLQHaEo?pid=Api&P=0&h=180');
+
+         document.getElementById('bg-image').setAttribute('width', '300px');
+
+         var movieName = "Mana Shankara Vara Prasad Garu";
+
+         console.log('Movie Name:', movieName);
+
+         document.getElementById('movie-name').innerHTML = movieName;
+
+         var languagesPlayed = ['Telugu', 'Hindi', 'English'];
+
+         var likesOfMovie = '415k';
+
+         var isUserLoggedIn = true;
+
+         var userRating = 4.5;
+
+         var noOfWickets = 4;
+
+
+         var mobileName = 'iPhone 17 Pro 256 GB: 15.93 cm (6.3″) Display with Promotion up to 120Hz, A19 Pro Chip,';
+
+         var averageRating = 4.7;
+
+         var imageUrl='https://m.media-amazon.com/images/I/41amrp7gg7L._SX342_SY445_QL70_FMwebp_.jpg'
+ 
+
+
+       </script>
+
+    <script src="1.5.25.js"></script>
+
+</body>
+</html>

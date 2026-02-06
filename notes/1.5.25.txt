@@ -1,0 +1,74 @@
+HTML: Displaying content in web page.
+
+CSS: Designing Layouts & Applying styles to HTML content.
+
+Programming language: It is a set of rules and instructions that the computer can understand and follow to execute a 
+
+Javascript: Adds functionality / behaviour to HTML content.
+
+> Javascript is often abbreviated as JS.
+>It is a programming language and core technology of the World Wide Web (www), alongside HTMl and CSS.
+> 99% of websites use Javascript on the client side for webpage behavior. (Angular/React JS/Vue Js)
+> Web browsers have a dedicated Javascript engine that executed the client code.
+
+     JavaScript Engines
+     VS - Google Chrome
+     JavaScript Core - safari
+     Spider Monkey - Mozilla Firefox
+     Chakra - Microsoft Edge
+
+> Browsers follow ECMA Script Organization instructions to build JavaScript engine in every browser.
+
+>It was introduced in 1995.
+
+> Latest version of JavaScript is ECMAScript 2024.
+
+> It is a high level language(User understandable language)- Compiler can understand high level language.
+
+> JavaScript follows ECMA Script Standard.
+
+1. Internal JavaScript: writing the JavaScript insie the script tag of HTML file.
+     
+     Syntax:
+
+         <script>
+
+             // JavaScript source code here...
+
+        </script>
+
+2. External JavaScript: writing JavaScript as a seperate file.
+
+    syntax:
+
+        filename.Js
+
+
+
+
+
+        filename.HTMl
+
+        <body>
+
+            <script src="filename.js"></script>
+
+        </body>
+
+Output Parameters
+1. window.alert(message) - Display message in format of alert.
+2. console.log(message) - Display message in browsers console.(Used by developers to debug the source code)
+3. document.getElementById(id).innerHTML = value;
+
+Variable: A variable in javascript is a named storage location that holds a place.
+It acts as a container for data that can be used and modified throughout a program.
+
+     Syntax:
+
+         var variableName = value;
+
+
+
+    Note: Variable name should be Camel case.(Starting from second word first letter should be capital letter).
+
+Task: Design mobile layout and map data using Javascript

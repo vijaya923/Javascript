@@ -1,0 +1,79 @@
+Operators: An operator is a symbol that performs an operation(values or variables)
+     
+Types:
+1.Arithmetic Operators
+2.Assignment Operators
+3.Comparison Operators
+4.Logical Operators
+
+
+Arithmetic Operators
++ (Addition)
+- (subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulus)
+++ (Increment) --> Increments the current value by 1.
+-- (Decrement) --> Decrements the current value by 1.
+
+Increment:
+
+     Syntax:
+
+        variableName++; // variableName = variableName + 1;
+
+Decrement:
+    Syntax:
+
+        variableName--; // variableName = variableName + 1;
+
+Assignment/shortand Operators:
+=  -->Assigns right side value to left side variable.
++= variableName = variableName+ value
+-=
+*=
+/=
+%=
+
+Comparison Operators:
+==   - Double Equal to - Compares left side value with right side value, Returns true if both values are matching.
+===  - Triple Equal to - Compares left side value and datatype with right side value & datatype,return true if both values & datatypes are matching.
+!=   - Not Equal to
+!==  - Not Double Equal to
+>
+<
+>=
+<=
+? - Ternary Operator
+
+Ternary operator:
+
+    Syntax:
+
+        condition/expression ? true statement : false statement;
+
+Logical Operators:
+
+&& - AND --> If all the conditions are true , it returns true otherwise false.
+|| - OR  --> If any of the condition is true, it returns true otherwise false.
+! - NOT  --> If value is true, it returns false and vice versa.
+
+&&:
+condition1   condition2     Result
+true         true           true
+true         false          false
+false        true           false
+false        false          false
+
+||
+condition1  condition2      Result
+true         true           true
+true         false          true
+false        true           false
+false        false          false
+
+!
+value    Result
+true      false
+false      true
+

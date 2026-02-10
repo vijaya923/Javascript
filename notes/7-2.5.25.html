@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes</title>
+</head>
+<body>
+
+        <label>Secured Marks</label>
+        <input type="number" placeholder="Marks" id="marks"/>
+    <br><br>
+    <button onclick="getGrade()">Submit</button>
+    <h3 id="result"></h3>
+    
+    <script>
+      function getGrade() {
+            var marks = Number(document.getElementById("marks").value);
+            var resultText = "";
+
+            if (marks >= 90) {
+                resultText='Excellent, You got A+';
+            } else if (marks >= 80) {
+                resultText= 'Great Job! Grade: A';
+            } else if (marks >= 70) {
+                resultText = 'Great Effort! Grade: B';
+            } else if (marks >= 60) {
+                resultText = 'Good Effort! Grade: C';
+            } else if (marks >= 50) {
+                resultText = 'Average Effort! Grade: D';
+            } else {
+                resultText = 'Unfortunately, you did not pass. Grade: F';
+            }
+        
+
+        document.getElementById('result').innerHTML = resultText;
+      }
+
+    </script>      
+</body>
+</html>
+

@@ -1,0 +1,40 @@
+Looping statements: Looping statements in Javascript facilitate the repeated execution of a 
+block of code as long as a specified condition remains true.
+
+1. while : Block of code will be executed multiple times until the condition is false.
+2. do while: If condition is becoming false for every iteration, it executes for one time and if condition is becoming true,it iterates until condition is false. 
+3. for : Block of code will be executed multiple times until the condition is false.
+4. for in : It iterations through all the keys present in object.
+
+1.while:
+
+    Syntax:
+     
+        while(condition) {
+            // Block of code...
+        }
+
+2. do-while:
+
+    syntax:
+
+        do{
+            //Block of code...
+        }while(condition)
+
+3. for:
+
+    syntax:
+
+        for(initialization; condition; increment/decrement) {
+           //Block of code...
+ 
+        }
+
+4. for-in: Iterates through each key-value of an object.
+
+    syntax:
+
+        for (var key in objectName) {
+            // Block of code...
+        }

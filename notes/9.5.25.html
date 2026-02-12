@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes</title>
+</head>
+
+<body>
+    <script>
+        var i = 0;
+        while (i < 10) {
+            console.log('Iteration: ' + i);
+            i++; // i = i + 1;
+        }
+        do {
+            console.log('Iteration: ' + i);
+            i++; // i = i + 1;
+
+        } while (i < 0);
+
+        for (var i = 0; i < 10; i++) {
+            console.log('Iteration: ' + i);
+        }
+
+        for (var i = 10; i > 0; i--) {
+            console.log('Iteration: ' + i);
+        }
+
+        var products = [
+            {
+                id: 1,
+                name: "Wireless Mouse",
+                description: "Ergonomic wireless mouse with 2.4 GHz connectivity",
+                price: 25.99,
+                category: "Electronics",
+                inStock: true,
+                image: "https://example.com/images/wireless-mouse.jpg"
+            },
+            {
+                id: 2,
+                name: "Bluetooth Headphones",
+                description: "Over-ear headphones with noise cancellation",
+                price: 59.99,
+                category: "Electronics",
+                inStock: true,
+                image: "https://example.com/images/bluetooth-headphones.jpg"
+            },
+            {
+                id: 3,
+                name: "Smart Watch",
+                description: "Fitness tracking smartwatch with heart rate monitor",
+                price: 99.99,
+                category: "Electronics",
+                inStock: false,
+                image: "https://example.com/images/smart-watch.jpg"
+            },
+            {
+                id: 4,
+                name: "Gaming Keyboard",
+                description: "Mechanical keyboard with RGB backlight",
+                price: 79.99,
+                category: "Electronics",
+                inStock: true,
+                image: "https://example.com/images/gaming-keyboard.jpg"
+            },
+            {
+                id: 5,
+                name: "USB-C Charger",
+                description: "Fast charging 65W USB-C power adapter",
+                price: 29.99,
+                category: "Accessories",
+                inStock: true,
+                image: "https://example.com/images/usb-c-charger.jpg"
+            }
+        ];
+
+        for (var i = 0; i < products.length; i++) {
+            console.log('Product Name: ' + products[i].name);
+            console.log('Price: $' + products[i].price);
+            console.log('In Stock: ' + (products[i].inStock ? 'Yes' : 'No'));
+            console.log('---');
+        }
+        for (var i = products.length - 1; i >= 0; i--) {
+            console.log('Product Name: ' + products[i].name);
+            console.log('Price: $' + products[i].price);
+            console.log('In Stock: ' + (products[i].inStock ? 'Yes' : 'No'));
+            console.log('---');
+        }
+
+        var productInfo = products[0];
+
+        console.log(productInfo);
+
+        for (var key in productInfo) {
+            console.log(key + ': ' + productInfo[key]);
+        }
+
+        var voter = {
+            id: 1,
+            name: "Ravi Kumar",
+            age: 28,
+            gender: "Male",
+            voterId: "AP1234567890",
+            address: {
+                doorNo: "12-3-45",
+                street: "MG Road",
+                city: "Ongole",
+                district: "Prakasam",
+                state: "Andhra Pradesh",
+                pincode: "523001"
+            },
+            constituency: "Ongole",
+            hasVoted: false
+        };
+        console.log(voter.voterId);
+
+        console.log(voter.address.pincode);
+
+        console.log(voter.constituency);
+
+
+
+
+    </script>
+
+</body>
+
+</html>
